@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/tasheela-portfolio/browser",
+    "public": "dist/portfolio/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
