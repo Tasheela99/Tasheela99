@@ -1,55 +1,71 @@
-# 🌸 Tasheela99
+# Hi there 👋 Welcome!
 
-Welcome to the **Tasheela99** repository!  
-This project showcases modern web design and development using **HTML**, **CSS**, **JavaScript**, and **SCSS** — all deployed seamlessly through **GitHub Pages**.
+<div align="center">
+  <img src="your-banner-image-url.png" alt="Banner" width="100%"/>
+</div>
 
----
+## Hello! 👋 My name is **[Your Name]**
 
-## 🧭 Overview
+I am from [Your University] taking [Your Degree Program] 🎓
 
-This repository hosts a **responsive and interactive web project** built with front-end technologies.  
-It demonstrates best practices in UI design, accessibility, and modern web styling.
+I have a huge interest in **ux and ui design** 🎨 as well **coding** 💻! Currently studying **[Your Tech Stack]**: react js, gatsby, graph ql and being a successful designer & developer 🚀
 
----
+Currently **[Your Current Role/Position]** and a Volunteer web designer at **[Organization]**.
 
-## 🧩 Tech Stack
-
-| Technology | Description |
-|-------------|-------------|
-| 🟦 **HTML5** | Semantic and accessible markup |
-| 🎨 **CSS3 / SCSS** | Beautiful, responsive design styling |
-| ⚡ **JavaScript (ES6)** | Adds interactivity and dynamic behavior |
-| 🌐 **GitHub Pages** | For simple and free web deployment |
+I love to join different community and competition that involve creating something for the society! 🌟
 
 ---
 
-## 📊 Language Composition
+### **Skills:**
+**Community Management | Mobile and Web Development | Project Management**
 
-| Language | Size (bytes) |
-|-----------|---------------|
-| 🎨 **CSS** | 95,058 |
-| 🟪 **HTML** | 59,051 |
-| 🟨 **JavaScript** | 63,152 |
-| 💗 **SCSS** | 68,461 |
+### **Tools:**
 
----
-
-## ✨ Features
-
-✅ Modern, mobile-friendly **responsive design**  
-✅ Dynamic **interactive elements** built with JavaScript  
-✅ Clean and **semantic HTML structure** for accessibility  
-✅ **Ready-to-deploy** via GitHub Pages  
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VSCode" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="40" height="40"/>
+</p>
 
 ---
 
-## 🚀 Getting Started
+### **What I'm up to:**
 
-Follow these steps to view or modify the project locally:
+- ✏️ I'm currently working on **this page**
+- 🖊️ I'm currently learning **ReactJS**
+- 🎨 How to reach me: **[Your Name]** *(Twitter, LinkedIn, Instagram)*
+- 👍 Pronouns: **She/Her** *(or your preferred pronouns)*
+- ⚡ Fun fact: **When you call my name as a whole Ms [Your Full Name] it means doll in Filipino language (Manika)**
 
-```bash
-# 1️⃣ Clone the repository
-git clone https://github.com/Tasheela99/Tasheela99.git
+---
 
-# 2️⃣ Navigate to the project directory
-cd Tasheela99
+### **Connect with me:**
+
+<p align="left">
+  <a href="https://github.com/yourusername" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="40" height="40"/>
+  </a>
+  <a href="https://linkedin.com/in/yourusername" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="40" height="40"/>
+  </a>
+  <a href="https://instagram.com/yourusername" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="40" height="40"/>
+  </a>
+  <a href="https://twitter.com/yourusername" target="_blank">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" alt="Twitter" width="40" height="40"/>
+  </a>
+  <a href="https://soundcloud.com/yourusername" target="_blank">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/soundcloud.svg" alt="SoundCloud" width="40" height="40"/>
+  </a>
+</p>
+
+---
+
+<div align="center">
+  
+![Profile Views](https://komarev.com/ghpvc/?username=yourusername&color=blueviolet)
+
+</div>
