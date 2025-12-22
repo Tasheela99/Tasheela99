@@ -1,71 +1,151 @@
-# Hi there 👋 Welcome!
+# Hi there 👋 Welcome to my GitHub!
 
 <div align="center">
-  <img src="your-banner-image-url.png" alt="Banner" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f4037,100:99f2c8&height=220&section=header&text=Tasheela%20Jayawickrama&fontSize=38&fontColor=ffffff" width="100%"/>
 </div>
 
-## Hello! 👋 My name is **[Your Name]**
+## 👋 Hello! I'm **Tasheela Jayawickrama**
 
-I am from [Your University] taking [Your Degree Program] 🎓
+🚀 **Software Engineer | Full-Stack Developer | Cloud Enthusiast**
 
-I have a huge interest in **ux and ui design** 🎨 as well **coding** 💻! Currently studying **[Your Tech Stack]**: react js, gatsby, graph ql and being a successful designer & developer 🚀
+I’m a passionate **Software Engineer with 2+ years of experience** in developing scalable web applications and backend systems.  
+I enjoy building **clean, maintainable, and user-friendly solutions**, working across both frontend and backend technologies.
 
-Currently **[Your Current Role/Position]** and a Volunteer web designer at **[Organization]**.
-
-I love to join different community and competition that involve creating something for the society! 🌟
+📍 **Colombo, Sri Lanka** 🇱🇰  
 
 ---
 
-### **Skills:**
-**Community Management | Mobile and Web Development | Project Management**
+## 👩‍💻 Current Role
+**Development Officer – Presidents Media Division**  
+*(Sep 2025 – Present)*  
 
-### **Tools:**
+- Building web applications using **React, Next.js, Node.js, Java, and Python**
+- Deploying and managing systems on **AWS**
+- Working in **Linux environments**
+- Designing **RESTful APIs**
+- Collaborating using **GitHub & Bitbucket**
+
+---
+
+## 💼 Work Experience
+
+### **Software Engineer**
+- Developed full-stack applications using **Node.js, Angular, React**
+- Integrated **MySQL & Firebase** for real-time data synchronization
+- Designed RESTful APIs and integrated **SendGrid**
+- Mentored developers and ensured high code quality
+
+### **Associate Software Engineer – Seekerscloud (Pvt) Ltd**
+*(May 2024 – Jan 2025)*  
+- Built robust applications using **Java, Spring Boot, Angular**
+- Integrated **MySQL & Firebase**
+- Designed REST APIs, testing, and documentation
+
+### **Intern Software Engineer – Seekerscloud (Pvt) Ltd**
+- Developed a full-stack application using **Spring Boot & Angular**
+- Strengthened skills in **Java, TypeScript, databases, teamwork**
+
+---
+
+## 🎓 Education
+
+- 🎓 **Bachelor of Information & Communication Technology**  
+  **University of Colombo**
+
+- 📘 **Diploma in Software Engineering**  
+  **IJSE Institute**
+
+- 📘 **Diploma in Software Engineering**  
+  **Developerstack Academy**
+
+---
+
+## 🧾 Certifications
+
+- ☁️ **AWS Academy Cloud Foundations**
+- 🤖 **AI/ML Engineer Certificate – SLIIT University**
+- 🧠 **Professional Certification in AI & ML – IIT Campus (PDU)**
+
+---
+
+## 🚀 Tech Stack
+
+### Frontend
+- React.js, Angular, Next.js  
+- HTML5, CSS3, JavaScript, TypeScript
+
+### Backend
+- Node.js, Java, Spring Boot  
+- RESTful APIs, Microservices
+
+### Databases
+- MySQL, Firebase, MongoDB
+
+### Cloud & Tools
+- AWS (EC2, S3)  
+- Git, GitHub, Bitbucket  
+- Linux
+
+---
+
+## 🛠️ Tools & Technologies
 
 <p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VSCode" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40"/>
 </p>
 
 ---
 
-### **What I'm up to:**
+## 📊 GitHub Stats
 
-- ✏️ I'm currently working on **this page**
-- 🖊️ I'm currently learning **ReactJS**
-- 🎨 How to reach me: **[Your Name]** *(Twitter, LinkedIn, Instagram)*
-- 👍 Pronouns: **She/Her** *(or your preferred pronouns)*
-- ⚡ Fun fact: **When you call my name as a whole Ms [Your Full Name] it means doll in Filipino language (Manika)**
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Tasheela99&show_icons=true&theme=tokyonight&hide_border=true" height="165"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tasheela99&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+
+</div>
 
 ---
 
-### **Connect with me:**
+## 🌱 What I'm Currently Doing
+- 🔭 Building **full-stack & cloud-based applications**
+- 🌱 Learning **advanced system design & AWS**
+- 🤝 Open to **collaborations and open-source**
+- 💬 Ask me about **Spring Boot, Angular, React, Firebase, AWS**
+
+---
+
+## 📫 Connect With Me
 
 <p align="left">
-  <a href="https://github.com/yourusername" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="40" height="40"/>
+  <a href="https://github.com/Tasheela99" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40"/>
   </a>
-  <a href="https://linkedin.com/in/yourusername" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="40" height="40"/>
-  </a>
-  <a href="https://instagram.com/yourusername" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="40" height="40"/>
-  </a>
-  <a href="https://twitter.com/yourusername" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" alt="Twitter" width="40" height="40"/>
-  </a>
-  <a href="https://soundcloud.com/yourusername" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/soundcloud.svg" alt="SoundCloud" width="40" height="40"/>
+  <a href="mailto:tasheelajay1999@gmail.com">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" width="40"/>
   </a>
 </p>
+
+---
+
+## ⚡ Fun Fact
+> When my full name is pronounced as **“Ms. Tasheela”**, it sounds like *“Manika”* — which means **doll** in Filipino 🇵🇭 😄
 
 ---
 
 <div align="center">
-  
-![Profile Views](https://komarev.com/ghpvc/?username=yourusername&color=blueviolet)
+
+![Profile Views](https://komarev.com/ghpvc/?username=Tasheela99&color=green)
 
 </div>
