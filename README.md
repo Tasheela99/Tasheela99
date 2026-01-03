@@ -110,9 +110,9 @@ I enjoy building **clean, maintainable, and user-friendly solutions**, working a
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Tasheela99&show_icons=true&theme=tokyonight&hide_border=true" height="165"/>
+[![GitHub Streak](https://streak-stats.demolab.com/?user=Tasheela99&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tasheela99&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+[![trophy](https://github-profile-trophy.vercel.app/?username=Tasheela99&theme=tokyonight&no-frame=true&row=1&column=6)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
