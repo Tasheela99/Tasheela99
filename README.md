@@ -8,7 +8,7 @@
 
 🚀 **Software Engineer | Full-Stack Developer | Cloud Enthusiast**
 
-I’m a passionate **Software Engineer with 2+ years of experience** in developing scalable web applications and backend systems.  
+I'm a passionate **Software Engineer with 2+ years of experience** in developing scalable web applications and backend systems.  
 I enjoy building **clean, maintainable, and user-friendly solutions**, working across both frontend and backend technologies.
 
 📍 **Colombo, Sri Lanka** 🇱🇰  
@@ -110,9 +110,11 @@ I enjoy building **clean, maintainable, and user-friendly solutions**, working a
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=Tasheela99&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+![Tasheela's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Tasheela99&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=Tasheela99&theme=tokyonight&no-frame=true&row=1&column=6)](https://github.com/ryo-ma/github-profile-trophy)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Tasheela99&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Tasheela99&theme=tokyonight&hide_border=true)
 
 </div>
 
@@ -140,7 +142,7 @@ I enjoy building **clean, maintainable, and user-friendly solutions**, working a
 ---
 
 ## ⚡ Fun Fact
-> When my full name is pronounced as **“Ms. Tasheela”**, it sounds like *“Manika”* — which means **doll** in Filipino 🇵🇭 😄
+> When my full name is pronounced as **"Ms. Tasheela"**, it sounds like *"Manika"* — which means **doll** in Filipino 🇵🇭 😄
 
 ---
 
