@@ -11,13 +11,13 @@
 I'm a passionate **Software Engineer with 2+ years of experience** in developing scalable web applications and backend systems.  
 I enjoy building **clean, maintainable, and user-friendly solutions**, working across both frontend and backend technologies.
 
-📍 **Colombo, Sri Lanka** 🇱🇰  
+📍 **Colombo, Sri Lanka** 🇱🇰
 
 ---
 
 ## 👩‍💻 Current Role
 **Development Officer – Presidents Media Division**  
-*(Sep 2025 – Present)*  
+*(Sep 2025 – Present)*
 
 - Building web applications using **React, Next.js, Node.js, Java, and Python**
 - Deploying and managing systems on **AWS**
@@ -36,14 +36,14 @@ I enjoy building **clean, maintainable, and user-friendly solutions**, working a
 - Mentored developers and ensured high code quality
 
 ### **Associate Software Engineer – Seekerscloud (Pvt) Ltd**
-*(May 2024 – Jan 2025)*  
+*(May 2024 – Jan 2025)*
 - Built robust applications using **Java, Spring Boot, Angular**
 - Integrated **MySQL & Firebase**
 - Designed REST APIs, testing, and documentation
 
 ### **Intern Software Engineer – Seekerscloud (Pvt) Ltd**
 - Developed a full-stack application using **Spring Boot & Angular**
-- Strengthened skills in **Java, TypeScript, databases, teamwork**
+- Strengthened skills in **Java, TypeScript, databases, and teamwork**
 
 ---
 
@@ -110,13 +110,19 @@ I enjoy building **clean, maintainable, and user-friendly solutions**, working a
 
 <div align="center">
 
-![Tasheela's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Tasheela99&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Tasheela99&show_icons=true&theme=tokyonight&hide_border=true" />
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Tasheela99&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Tasheela99&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Tasheela99&theme=tokyonight&hide_border=true)
+<img src="https://streak-stats.demolab.com?user=Tasheela99&theme=tokyonight&hide_border=true" />
 
 </div>
+
+---
+
+## 📈 Contribution Activity
+
+![Tasheela's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Tasheela99&theme=tokyo-night&hide_border=true)
 
 ---
 
@@ -138,13 +144,6 @@ I enjoy building **clean, maintainable, and user-friendly solutions**, working a
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" width="40"/>
   </a>
 </p>
-
----
-
-## ⚡ Fun Fact
-> When my full name is pronounced as **"Ms. Tasheela"**, it sounds like *"Manika"* — which means **doll** in Filipino 🇵🇭 😄
-
----
 
 <div align="center">
 
