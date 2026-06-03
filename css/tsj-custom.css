@@ -1,0 +1,379 @@
+/* ============================================================
+   TSJ Custom Styles — Blog, Contact, Theme, Responsive
+   ============================================================ */
+
+/* ── CSS Variables (Dark mode defaults) ─────────────────── */
+:root {
+    --tsj-bg:           #0e0e0e;
+    --tsj-surface:      #181818;
+    --tsj-surface-2:    #222222;
+    --tsj-border:       rgba(255,255,255,0.08);
+    --tsj-text:         #e8e8e8;
+    --tsj-text-muted:   #888;
+    --tsj-accent:       #c8a96e;
+    --tsj-accent-rgb:   200, 169, 110;
+    --tsj-card-shadow:  0 8px 40px rgba(0,0,0,0.45);
+    --tsj-radius:       14px;
+    --tsj-transition:   0.35s cubic-bezier(.4,0,.2,1);
+}
+
+/* ── Light Mode Overrides ───────────────────────────────── */
+body.tsj-light-mode {
+    --tsj-bg:           #f5f5f0;
+    --tsj-surface:      #ffffff;
+    --tsj-surface-2:    #efefef;
+    --tsj-border:       rgba(0,0,0,0.1);
+    --tsj-text:         #1a1a1a;
+    --tsj-text-muted:   #666;
+    --tsj-card-shadow:  0 8px 40px rgba(0,0,0,0.10);
+}
+
+body.tsj-light-mode .mil-wrapper,
+body.tsj-light-mode .mil-content,
+body.tsj-light-mode section,
+body.tsj-light-mode .mil-soft-bg {
+    background-color: var(--tsj-bg) !important;
+    color: var(--tsj-text) !important;
+}
+
+body.tsj-light-mode .mil-banner-personal,
+body.tsj-light-mode .mil-inner-banner {
+    background-color: var(--tsj-bg) !important;
+}
+
+body.tsj-light-mode h1,
+body.tsj-light-mode h2,
+body.tsj-light-mode h3,
+body.tsj-light-mode h4,
+body.tsj-light-mode h5,
+body.tsj-light-mode h6,
+body.tsj-light-mode p {
+    color: var(--tsj-text) !important;
+}
+
+body.tsj-light-mode .mil-muted { color: var(--tsj-text) !important; }
+body.tsj-light-mode .mil-light-soft { color: var(--tsj-text-muted) !important; }
+body.tsj-light-mode .mil-logo { color: var(--tsj-text) !important; }
+body.tsj-light-mode .mil-frame { background: var(--tsj-bg) !important; border-color: var(--tsj-border) !important; }
+body.tsj-light-mode .mil-menu-frame { background: var(--tsj-bg) !important; }
+body.tsj-light-mode .mil-accordion-group { border-color: var(--tsj-border) !important; }
+body.tsj-light-mode .mil-accordion-head { color: var(--tsj-text) !important; }
+body.tsj-light-mode .mil-team-card { background: var(--tsj-surface) !important; }
+
+/* ── Section Layout Helper ──────────────────────────────── */
+.tsj-section-header {
+    text-align: center;
+    padding: 80px 0 50px;
+}
+
+.tsj-section-header h2 {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    margin-bottom: 16px;
+    color: var(--tsj-text);
+}
+
+.tsj-section-header p {
+    max-width: 540px;
+    margin: 0 auto;
+    color: var(--tsj-text-muted);
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+.tsj-section-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--tsj-accent);
+    background: rgba(var(--tsj-accent-rgb), 0.12);
+    padding: 6px 16px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   BLOG SECTION
+   ═══════════════════════════════════════════════════════════ */
+.tsj-blog-section {
+    padding: 0 0 100px;
+}
+
+.tsj-blog-grid {
+    row-gap: 32px;
+    padding-bottom: 20px;
+}
+
+/* Card wrapper */
+.tsj-blog-card {
+    background: var(--tsj-surface);
+    border-radius: var(--tsj-radius);
+    overflow: hidden;
+    box-shadow: var(--tsj-card-shadow);
+    border: 1px solid var(--tsj-border);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: transform var(--tsj-transition), box-shadow var(--tsj-transition);
+}
+
+.tsj-blog-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 56px rgba(0,0,0,0.6);
+}
+
+/* Image */
+.tsj-blog-img-wrap {
+    position: relative;
+    overflow: hidden;
+    height: 210px;
+}
+
+.tsj-blog-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.tsj-blog-card:hover .tsj-blog-img-wrap img {
+    transform: scale(1.06);
+}
+
+/* Tag badge */
+.tsj-blog-tag {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    background: var(--tsj-accent);
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 50px;
+}
+
+/* Body */
+.tsj-blog-body {
+    padding: 24px 24px 28px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+/* Meta row */
+.tsj-blog-meta {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 14px;
+    font-size: 0.78rem;
+    color: var(--tsj-text-muted);
+}
+
+.tsj-blog-meta span {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Title */
+.tsj-blog-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    color: var(--tsj-text);
+}
+
+/* Excerpt */
+.tsj-blog-excerpt {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: var(--tsj-text-muted);
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+/* Read button */
+.tsj-blog-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--tsj-accent);
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    transition: gap var(--tsj-transition);
+    margin-top: auto;
+}
+
+.tsj-blog-btn:hover { gap: 14px; color: var(--tsj-accent); }
+
+
+/* ═══════════════════════════════════════════════════════════
+   CONTACT SECTION
+   ═══════════════════════════════════════════════════════════ */
+.tsj-contact-section {
+    padding: 0 0 100px;
+}
+
+/* Grid of 2×2 on desktop, 1 col on mobile */
+.tsj-contact-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+/* Contact card */
+.tsj-contact-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: var(--tsj-surface);
+    border: 1px solid var(--tsj-border);
+    border-radius: var(--tsj-radius);
+    padding: 24px 28px;
+    text-decoration: none;
+    color: var(--tsj-text);
+    box-shadow: var(--tsj-card-shadow);
+    transition: transform var(--tsj-transition), border-color var(--tsj-transition), box-shadow var(--tsj-transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.tsj-contact-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(var(--tsj-accent-rgb),0.06) 0%, transparent 60%);
+    opacity: 0;
+    transition: opacity var(--tsj-transition);
+}
+
+.tsj-contact-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(var(--tsj-accent-rgb), 0.4);
+    box-shadow: 0 12px 48px rgba(0,0,0,0.5);
+    color: var(--tsj-text);
+}
+
+.tsj-contact-card:hover::before { opacity: 1; }
+
+/* Icon wrap */
+.tsj-contact-icon-wrap {
+    width: 52px;
+    height: 52px;
+    min-width: 52px;
+    border-radius: 12px;
+    background: rgba(var(--tsj-accent-rgb), 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: var(--tsj-accent);
+    transition: background var(--tsj-transition);
+}
+
+.tsj-contact-card:hover .tsj-contact-icon-wrap {
+    background: var(--tsj-accent);
+    color: #fff;
+}
+
+/* Text */
+.tsj-contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    flex: 1;
+    min-width: 0;
+}
+
+.tsj-contact-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--tsj-text-muted);
+}
+
+.tsj-contact-value {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--tsj-text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Arrow icon */
+.tsj-contact-arrow {
+    font-size: 0.8rem;
+    color: var(--tsj-text-muted);
+    transition: color var(--tsj-transition), transform var(--tsj-transition);
+}
+
+.tsj-contact-card:hover .tsj-contact-arrow {
+    color: var(--tsj-accent);
+    transform: translate(3px, -3px);
+}
+
+/* Map embed */
+.tsj-map-wrap {
+    border-radius: var(--tsj-radius);
+    overflow: hidden;
+    border: 1px solid var(--tsj-border);
+    height: 340px;
+}
+
+.tsj-map-wrap iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+/* ═══════════════════════════════════════════════════════════
+   MOBILE RESPONSIVE
+   ═══════════════════════════════════════════════════════════ */
+@media (max-width: 991px) {
+    .tsj-section-header { padding: 60px 0 40px; }
+    .tsj-blog-img-wrap  { height: 180px; }
+    .tsj-contact-grid   { grid-template-columns: 1fr; }
+    .tsj-map-wrap       { height: 260px; }
+}
+
+@media (max-width: 767px) {
+    .tsj-section-header      { padding: 50px 0 30px; }
+    .tsj-section-header h2   { font-size: 2rem; }
+    .tsj-blog-section        { padding: 0 0 60px; }
+    .tsj-contact-section     { padding: 0 0 60px; }
+    .tsj-blog-grid           { row-gap: 20px; }
+    .tsj-blog-img-wrap       { height: 200px; }
+    .tsj-contact-card        { padding: 18px 20px; gap: 14px; }
+    .tsj-contact-value       { font-size: 0.85rem; }
+    .tsj-map-wrap            { height: 220px; }
+
+    /* Expertise skill cards */
+    .mil-team-card {
+        margin-bottom: 16px !important;
+    }
+
+    /* Portfolio slider */
+    .mil-portfolio-slider-frame .container { padding: 0 15px; }
+}
+
+@media (max-width: 480px) {
+    .tsj-contact-card { flex-wrap: wrap; }
+    .tsj-contact-arrow { display: none; }
+    .tsj-blog-body { padding: 18px 16px 22px; }
+    .tsj-blog-title { font-size: 1rem; }
+}

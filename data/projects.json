@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Interior Design Studio",
+    "category": "Web Development",
+    "date": "May 2023",
+    "image": "img/works/1.jpg",
+    "link": "#portfolio",
+    "description": "A modern full-stack web platform for an interior design company."
+  },
+  {
+    "id": 2,
+    "title": "Home Security Camera",
+    "category": "IoT & Hardware",
+    "date": "Jun 2023",
+    "image": "img/works/2.jpg",
+    "link": "#portfolio",
+    "description": "Smart home security system with real-time monitoring and alerts."
+  },
+  {
+    "id": 3,
+    "title": "Kemia Honest Skincare",
+    "category": "E-Commerce",
+    "date": "Aug 2023",
+    "image": "img/works/3.jpg",
+    "link": "#portfolio",
+    "description": "E-commerce platform for a skincare brand with product filtering and cart."
+  },
+  {
+    "id": 4,
+    "title": "Cascade of Lava",
+    "category": "UI/UX Design",
+    "date": "Oct 2023",
+    "image": "img/works/4.jpg",
+    "link": "#portfolio",
+    "description": "Creative brand identity and interactive web experience design."
+  },
+  {
+    "id": 5,
+    "title": "Air Pro by Molekule",
+    "category": "Mobile App",
+    "date": "Dec 2023",
+    "image": "img/works/5.jpg",
+    "link": "#portfolio",
+    "description": "Companion mobile app for an air purifier device with analytics dashboard."
+  },
+  {
+    "id": 6,
+    "title": "Tony's Chocolonely",
+    "category": "Web Development",
+    "date": "Feb 2024",
+    "image": "img/works/6.jpg",
+    "link": "#portfolio",
+    "description": "Brand storytelling website with interactive product showcase."
+  }
+]

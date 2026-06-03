@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "slug": "future-of-web-development",
+    "title": "The Future of Web Development",
+    "category": "Web Dev",
+    "date": "Nov 12, 2025",
+    "readTime": "5 min read",
+    "image": "img/works/1.jpg",
+    "link": "blog.html?slug=future-of-web-development",
+    "excerpt": "Exploring modern frameworks and why the shift towards server-side rendering is happening again in 2025.",
+    "contentBlocks": [
+      { "type": "paragraph", "text": "The web development landscape has shifted dramatically. After years dominated by client-side rendering, we are witnessing a significant return to server-side rendering — smarter, more flexible, and more powerful than ever before." },
+      { "type": "heading", "text": "Why SSR is Making a Comeback" },
+      { "type": "paragraph", "text": "Single Page Applications offered seamless navigation and rich interactivity, but their weaknesses became apparent: poor initial load performance, SEO challenges, and heavy JavaScript bundles. Server-side rendering addresses these pain points directly — users see content immediately, and search engines can crawl it effortlessly." },
+      { "type": "heading", "text": "React Server Components" },
+      { "type": "paragraph", "text": "React 18 introduced Server Components, allowing developers to render components on the server without shipping their code to the client. This reduces bundle sizes dramatically and enables direct database access from components — a paradigm shift that frameworks like Next.js 15 have fully embraced." },
+      { "type": "list", "items": ["Next.js App Router with full SSR support", "Astro for content-heavy sites with zero JS by default", "SvelteKit for a lightweight, fast alternative", "Remix for progressive enhancement and nested routing"] },
+      { "type": "heading", "text": "What This Means for Developers" },
+      { "type": "paragraph", "text": "As a developer, the key takeaway is to understand the rendering model that best fits your project. A marketing site benefits enormously from SSR for SEO. A dashboard with real-time data might still prefer client-side rendering. The modern web gives us the tools to make that choice per-component, not per-application." },
+      { "type": "quote", "text": "The best rendering strategy is the one that serves your users fastest — not the one that is most trendy." }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "mastering-cloud-deployments",
+    "title": "Mastering Cloud Deployments",
+    "category": "Cloud",
+    "date": "Oct 05, 2025",
+    "readTime": "7 min read",
+    "image": "img/works/2.jpg",
+    "link": "blog.html?slug=mastering-cloud-deployments",
+    "excerpt": "A step-by-step guide on how I use AWS EC2 and S3 to deploy and scale production applications.",
+    "contentBlocks": [
+      { "type": "paragraph", "text": "Cloud deployment is no longer optional for production applications. Whether you are running a startup or an enterprise system, the ability to reliably deploy, monitor, and scale your application is a core engineering skill. Here is how I approach it using AWS." },
+      { "type": "heading", "text": "Choosing the Right AWS Service" },
+      { "type": "paragraph", "text": "AWS offers a wide range of compute options. For most web applications, EC2 (Elastic Compute Cloud) provides the right balance of control and flexibility. For static frontends or media assets, S3 paired with CloudFront gives you global CDN delivery at minimal cost." },
+      { "type": "list", "items": ["EC2 for full-control server instances", "S3 + CloudFront for static assets and frontends", "RDS for managed relational databases", "Elastic Beanstalk for rapid deployments without deep infra knowledge"] },
+      { "type": "heading", "text": "Setting Up EC2 for Production" },
+      { "type": "paragraph", "text": "A production EC2 setup starts with choosing the right instance type. For most Node.js or Java Spring Boot backends, a t3.medium or t3.large is a solid starting point. Always use an Elastic IP so your server address stays stable across reboots, and configure security groups to allow only necessary ports." },
+      { "type": "heading", "text": "S3 for Static Assets" },
+      { "type": "paragraph", "text": "Offloading images, videos, and frontend bundles to S3 dramatically reduces load on your EC2 instance. Enable versioning on your S3 bucket for rollback capability, and set up a lifecycle policy to move old versions to cheaper Glacier storage automatically." },
+      { "type": "quote", "text": "Infrastructure that you understand is infrastructure you can debug at 2am when everything is on fire." }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "building-with-spring-boot",
+    "title": "Building with Spring Boot",
+    "category": "Backend",
+    "date": "Sep 20, 2025",
+    "readTime": "6 min read",
+    "image": "img/works/3.jpg",
+    "link": "blog.html?slug=building-with-spring-boot",
+    "excerpt": "Best practices for creating robust REST APIs and microservices architecture using Java and Spring Boot.",
+    "contentBlocks": [
+      { "type": "paragraph", "text": "Spring Boot remains one of the most powerful and production-proven frameworks for building Java backends. Its convention-over-configuration philosophy means you spend less time on boilerplate and more time solving real business problems." },
+      { "type": "heading", "text": "Project Structure That Scales" },
+      { "type": "paragraph", "text": "A well-organised Spring Boot project separates concerns clearly: controllers handle HTTP, services contain business logic, and repositories talk to the database. Avoid putting business logic in controllers — this makes your code testable and your team sane." },
+      { "type": "list", "items": ["controller/ — REST endpoints only", "service/ — business logic and orchestration", "repository/ — JPA/database interactions", "dto/ — data transfer objects for API contracts", "exception/ — custom exceptions and global error handling"] },
+      { "type": "heading", "text": "REST API Best Practices" },
+      { "type": "paragraph", "text": "Good REST APIs are consistent and predictable. Use nouns for resources, not verbs. Return proper HTTP status codes — 201 for creation, 404 for not found, 400 for validation errors. Always validate incoming request bodies with Bean Validation annotations like @NotNull and @Size." },
+      { "type": "heading", "text": "Microservices with Spring Boot" },
+      { "type": "paragraph", "text": "Spring Boot pairs naturally with Spring Cloud for microservices. Use Eureka for service discovery, Spring Cloud Gateway as an API gateway, and Resilience4J for circuit breaking. However, do not rush into microservices — start with a well-structured monolith and extract services only when team or scaling demands it." },
+      { "type": "quote", "text": "A well-structured monolith beats a poorly-designed microservices architecture every single time." }
+    ]
+  }
+]

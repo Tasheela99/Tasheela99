@@ -1,0 +1,162 @@
+/* ============================================================
+   blog.css — Styles for the individual blog post page
+   Inherits all colours/variables from tsj-custom.css
+   ============================================================ */
+
+/* ── Hero featured image ──────────────────────────────────── */
+.tsj-blog-hero-img {
+    width: 100%;
+    max-height: 480px;
+    overflow: hidden;
+    position: relative;
+}
+
+.tsj-blog-hero-img img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    display: block;
+}
+
+/* ── Article body typography ──────────────────────────────── */
+.tsj-article-body {
+    font-size: 1.05rem;
+    line-height: 1.85;
+}
+
+.tsj-article-h2 {
+    font-size: clamp(1.4rem, 3vw, 2rem);
+    font-weight: 700;
+    margin: 50px 0 18px;
+    letter-spacing: -0.02em;
+}
+
+.tsj-article-h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 36px 0 14px;
+}
+
+.tsj-article-p {
+    margin-bottom: 24px;
+    opacity: 0.85;
+}
+
+/* ── Blockquote ───────────────────────────────────────────── */
+.tsj-article-quote {
+    border-left: 4px solid var(--tsj-accent, #c8a96e);
+    margin: 40px 0;
+    padding: 20px 28px;
+    background: rgba(200, 169, 110, 0.06);
+    border-radius: 0 8px 8px 0;
+    font-size: 1.1rem;
+    font-style: italic;
+    line-height: 1.7;
+}
+
+.tsj-article-quote .fa-quote-left {
+    color: var(--tsj-accent, #c8a96e);
+    margin-right: 10px;
+    font-size: 0.9em;
+    opacity: 0.7;
+}
+
+/* ── List ─────────────────────────────────────────────────── */
+.tsj-article-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 28px;
+}
+
+.tsj-article-list li {
+    padding: 10px 0 10px 28px;
+    position: relative;
+    border-bottom: 1px solid var(--tsj-border, rgba(255,255,255,0.08));
+    opacity: 0.85;
+}
+
+.tsj-article-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--tsj-accent, #c8a96e);
+}
+
+/* ── Code block ───────────────────────────────────────────── */
+.tsj-article-code {
+    background: #111;
+    border: 1px solid var(--tsj-border, rgba(255,255,255,0.08));
+    border-radius: 8px;
+    padding: 24px;
+    overflow-x: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin: 28px 0;
+    color: #e8e8e8;
+}
+
+/* ── Bottom navigation ────────────────────────────────────── */
+.tsj-blog-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.tsj-back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--tsj-text, #e8e8e8);
+    transition: gap 0.3s ease, color 0.3s ease;
+}
+
+.tsj-back-link:hover {
+    gap: 16px;
+    color: var(--tsj-accent, #c8a96e);
+}
+
+.tsj-share-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-size: 0.85rem;
+    opacity: 0.7;
+}
+
+.tsj-share-row a {
+    font-size: 1.1rem;
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.tsj-share-row a:hover { color: var(--tsj-accent, #c8a96e); opacity: 1; }
+
+/* ── Light mode adjustments ───────────────────────────────── */
+body.tsj-light-mode .tsj-article-code {
+    background: #f0f0f0;
+    color: #1a1a1a;
+    border-color: rgba(0,0,0,0.1);
+}
+
+body.tsj-light-mode .tsj-back-link { color: var(--tsj-text); }
+
+/* ── Mobile ───────────────────────────────────────────────── */
+@media (max-width: 767px) {
+    .tsj-blog-hero-img,
+    .tsj-blog-hero-img img { max-height: 260px; height: 260px; }
+    .tsj-article-body { font-size: 0.97rem; }
+    .tsj-blog-nav { flex-direction: column; align-items: flex-start; }
+}
